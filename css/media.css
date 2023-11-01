@@ -1,9 +1,7 @@
-@media (min-width: 1200px) {  
-  .header__menu {
-    width: 100%;
+@media (min-width: 1905px) {  
+  .slider__title  {
+    margin: -17% 16%;
   }
-  .header__slider  {
-    height: 270px;
-  }
+  
 
 }
