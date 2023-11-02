@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
+/* || General styles */
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +9,9 @@
     font-family: normal;
     
 }
+/* || General styles */
 
+/* || HEADER styles */
 header {
     max-width: 1920px;
     height: auto;
@@ -184,3 +187,131 @@ header {
     font-size: 18px;
     font-weight: 100;
 }
+/* || Header styles */
+
+/* || Main styles */
+
+main {
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+
+}
+.main__card__container {
+    width: 77%;
+    height: auto;
+     
+    
+    column-gap: 1%;
+    row-gap: 7%;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin-top: 2%;
+     
+      
+     
+}
+.card__box {
+    width: 488px;
+    height: 260px;
+   
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box__image  {
+    width: 488px;
+    height: 186px;
+}
+.box__image img {
+    width: 488px;
+    height: 186px;
+    object-fit: cover;
+}
+.card__content {
+    width: 100%;
+    height: 100%;
+     margin-top: 2%;
+    display: flex;
+     
+     
+    
+}
+.card__content  .icon {
+    width: 50px;
+    height: 50px;
+    
+    margin: 7px 5px;
+}
+.card__content  .icon  img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.card__content  .line {
+    width: 10px;
+    height: 50px;
+    border-left: 1px solid black;
+    text-decoration: dashed;
+    margin: 7px 5px;
+     
+
+}
+.card__content .text {
+     width: 400px;
+     height: auto;
+     display: flex;
+      flex-direction: column;
+      margin-top: 1%;
+}
+.card__content .text h1 {
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb( 114,98,119);
+}
+.card__content .text_line {
+    width: 408px;
+    height: 1px;
+    background-color: rgb( 114,98,119);
+}
+.text_content {
+    width: 400px;
+    height: auto;
+    display: flex;
+ 
+    justify-content: space-between;
+     
+}
+.text_content p {
+    
+    font-size: 18px;
+    color: rgb( 114,98,119);
+    font-weight: 100;
+    font-style: italic;
+
+}
+.text_content a {
+    width: 170px;
+    height: 18px;
+    background-color: rgb(124, 91, 135);
+    color: white;
+    font-size: 13px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin: 1% 0.5%;
+     
+}
+
+
+
+
+
+
+
+/* || Main styles */
