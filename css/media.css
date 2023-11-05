@@ -2,6 +2,9 @@
   .slider__title  {
     margin: -17% 16%;
   }
+  .main__card__container  {
+      width: 50%;
+  }
   
 
 }

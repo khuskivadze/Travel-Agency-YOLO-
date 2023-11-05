@@ -2,3 +2,10 @@
     font-family: normal;
     src: url(../fonts/WixMadeforTextVF_W_Wght.8022447a.woff2);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap');
+
+@font-face {
+    font-family: 'Courier Prime', monospace;
+   
+}
